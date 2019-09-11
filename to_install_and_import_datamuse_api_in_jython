@@ -1,0 +1,11 @@
+# To install datamuse Python API in Jython:
+
+Step 1: Open command prompt and type,
+
+		jython -m pip install python-datamuse
+
+Step 2: To import datamuse API in Jython
+
+		>>> import sys
+		>>> sys.path.append("C:\\Jython2.7.0\\Lib\\site-packages")
+		>>> from datamuse import datamuse 

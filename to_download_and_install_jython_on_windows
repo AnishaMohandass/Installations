@@ -1,0 +1,37 @@
+# Download and install Jython on Windows:
+
+Step 1: Go to this link to download Jython
+
+		https://jython.org/downloads.html
+
+
+Step 2: Click the below download option to download Jython
+
+		Download Jython 2.7.0 - Installer: Executable jar for installing Jython
+
+
+Step 3: After downloading, double click on the jar file to install Jython
+
+
+Step 4: After installing, set the Jython path in environmental variables
+
+		Under System variables,
+
+		JYTHON_HOME : C:\jython2.7.0
+		Path : %JYTHON_HOME%\bin
+
+
+Step 5: Open command prompt and type
+	
+		jython
+
+		Jython interpreter starts...
+
+
+
+
+# To import jar file in Jython:
+
+>>> import sys
+>>> sys.path.append("E:\Anisha\Downloads\helloworld.jar")
+>>> import helloworld

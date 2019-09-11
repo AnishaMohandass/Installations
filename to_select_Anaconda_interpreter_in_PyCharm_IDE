@@ -1,0 +1,9 @@
+# To select Anaconda interpreter in PyCharm IDE
+
+After downloading and installing PyCharm on windows, select Create New Project
+
+A dialog box will appear, in that 
+
+	select New environment
+	In loction box - Mention the path and name of the environment you want to create.
+	In conda executable box - select conda path (C:\Anaconda\Scripts\conda.exe)

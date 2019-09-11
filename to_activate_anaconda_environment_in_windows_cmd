@@ -1,0 +1,13 @@
+# To activate Anaconda environment in Windows command prompt
+
+Step 1: Open Windows command prompt and type
+
+		conda env list
+
+Step 2: List of Anaconda environments will appear
+
+Step 3: Type
+
+		conda activate base
+
+	(base) conda environment will be activated
