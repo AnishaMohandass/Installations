@@ -4,5 +4,5 @@ Step 1: Open Anaconda command prompt with the required environment to install nb
 
 		conda install -c conda-forge jupyter_nbextensions_configurator
 
-		conda install -c conda-forge jupyter_contrib_extensions
+		conda install -c conda-forge jupyter_contrib_nbextensions
 
